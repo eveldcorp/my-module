@@ -1,5 +1,5 @@
 resource "network" "from_remote" {
-  subnet = "100.100.100.0/24"
+  subnet = "10.10.10.0/24"
 }
 
 output "network" {
